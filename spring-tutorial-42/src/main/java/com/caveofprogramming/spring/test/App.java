@@ -20,6 +20,8 @@ public class App {
 		}
 		
 		((ClassPathXmlApplicationContext)context).close();
+		System.out.println("hello");
 	}
+	
 
 }
